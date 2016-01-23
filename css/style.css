@@ -46,6 +46,10 @@ body{
 .fa-angle-down{
     color: white;
     padding-top: 60px;
+animation: bounce 2s infinite;
+-webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
 }
 .center{
     align-content: center;
