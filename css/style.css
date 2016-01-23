@@ -29,19 +29,6 @@ body{
     font-family: serif;
      font-size: 40px;
 }
-/*For change of screen size*/
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
-
 /*Font awesome*/
 .fa-angle-down{
     color: white;
@@ -58,8 +45,9 @@ animation: bounce 2s infinite;
 /*Bio or what i do section*/
 #bio{
     background-color: #00695C;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
-    color: white;
+    color: #B2DFDB;
     text-align: center;
+    font-family: 'Inconsolata', ;
 }
