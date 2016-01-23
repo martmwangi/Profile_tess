@@ -24,6 +24,13 @@
       <link rel="stylesheet" href="css/animate%20(1).css">
 <!--      linking the google fonts-->
       <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+
+      <!--      Setting up wow javascript-->
+      <script type="text/javascript" src="js/wow.js"></script>
+      <!--      Initializing wow.js-->
+      <script type="text/javascript">
+          new WOW().init();
+      </script>
   </head>
   <body>
     <header>
@@ -43,7 +50,7 @@
         <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h1>Who I am</h1>
-                <p class="wow bounceInUp" data-wow-delay="5s" data-wow-duration="3s">Hi, call me Tess or Wangeci, girl with the big not so pretty laugh. I like to read(I have a knack for African Literature).I am a part-time hiker. I love to travel, take pictures and I also practise farming.</p>
+                <p class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">Hi, call me Tess or Wangeci, girl with the big not so pretty laugh. I like to read(I have a knack for African Literature).I am a part-time hiker. I love to travel, take pictures and I also practise farming.</p>
             </div>
         </div>
     </div>
@@ -54,16 +61,7 @@
 
     </div>
     <footer></footer>
-      <script src="js/script.js" type="text/javascript"></script>
-      <!--      Adding jquery -->
-      <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
-<!--      Texillate js initialization script-->
-        <script type="text/javascript" src="js/jquery.textillate.js"></script>
-        <script type="text/javascript" src="js/jquery.lettering-0.6.1.min.js"></script>
-<!--      Setting up wow javascript-->
-      <script type="text/javascript" src="js/wow.js">
-      </script>
-<script>
+      <script>
         $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         || location.hostname == this.hostname) {
@@ -78,7 +76,14 @@
         }
     }
 });
-
         </script>
+      <script src="js/script.js" type="text/javascript"></script>
+      <!--      Adding jquery -->
+      <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<!--      Texillate js initialization script-->
+        <script type="text/javascript" src="js/jquery.textillate.js"></script>
+        <script type="text/javascript" src="js/jquery.lettering-0.6.1.min.js"></script>
+
+
   </body>
 </html>

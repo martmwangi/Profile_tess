@@ -44,10 +44,10 @@ animation: bounce 2s infinite;
 }
 /*Bio or what i do section*/
 #bio{
-    background-color: #00695C;
+    background-color: #00796B;
     height: 50vh;
     width: 100%;
-    color: #B2DFDB;
+    color: white;
     text-align: center;
     font-family: 'Inconsolata';
 }
