@@ -12,6 +12,8 @@ body{
     background-position: center;
     margin: 0;
     padding: 0;
+    align-content: center;
+    text-align: center;
 
 }
 #landing h1{
@@ -43,4 +45,9 @@ body{
 /*Font awesome*/
 .fa-angle-down{
     color: white;
+    padding-top: 60px;
+}
+.center{
+    align-content: center;
+    text-align: center;
 }
