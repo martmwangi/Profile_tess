@@ -55,3 +55,11 @@ animation: bounce 2s infinite;
     align-content: center;
     text-align: center;
 }
+/*Bio or what i do section*/
+#bio{
+    background-color: #00695C;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
