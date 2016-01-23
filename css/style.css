@@ -49,5 +49,11 @@ animation: bounce 2s infinite;
     width: 100%;
     color: #B2DFDB;
     text-align: center;
-    font-family: 'Inconsolata', ;
+    font-family: 'Inconsolata';
+}
+#bio h1{
+    font-size: 45px;
+}
+#bio p{
+    font-size: 30px;
 }
