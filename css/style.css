@@ -77,11 +77,14 @@ animation: bounce 2s infinite;
 #bio hr{
     font-weight: 800;
     color: white;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px white;
 }
 #bio h1{
     font-size: 45px;
-
 }
+
 #bio p{
     font-size: 30px;
 }
@@ -98,10 +101,13 @@ animation: bounce 2s infinite;
 }
 #quotes{
     color: white;
-    position: absolute;
     text-align: center;
+    position: absolute;
     font-family: 'Open Sans Condensed', sans-serif;
-    padding-top: 50px;
-    font-size: 25px;
-    font-weight: 750;
+    padding-top: 58px;
+
+}
+#quotes p{
+    text-align: center;
+    font-size: 50px;
 }
