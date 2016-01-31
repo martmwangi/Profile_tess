@@ -14,8 +14,8 @@ body{
 .banner-swimming{
 background:
 linear-gradient(
-rgba(12, 12, 13, 0.64),
-rgba(12, 12, 13, 0.64)
+rgba(12, 12, 13, 0.30),
+rgba(12, 12, 13, 0.30)
 ), url(../Images/207-min.JPG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@ animation: bounce 2s infinite;
 #bio{
     height: 100vh;
     width: 100%;
-    color: #3E2723;
+    color: white;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     position: absolute;
@@ -71,11 +71,9 @@ animation: bounce 2s infinite;
 
 */
 }
-.background-image{
-    height: 100vh;
-    width: 100%;
-    position: fixed;
 
+.info{
+    padding-top: 150px;
 }
 #bio hr{
     font-weight: 800;
