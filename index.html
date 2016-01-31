@@ -25,6 +25,22 @@
 <!--      linking the google fonts-->
       <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+        <!--      Adding jquery -->
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!--      For the sliding Quotes-->
+      <script src="aniruddhanath-jquery-crotator-211e99b/jquery.crotator.js"></script>
+      <script>
+          //For the sliding quotes
+  $('#quotes').crotator({
+    timeOfExistence: 5, // in seconds
+    typeofTag: "<h4/>",
+    tagClass: "elClass",
+    cycle: true, // true, false
+    startEmpty: false // true, false
+  });
+
+      </script>
 
       <!--      Setting up wow javascript-->
       <script type="text/javascript" src="js/wow.js"></script>
@@ -74,7 +90,13 @@
             </div>
         </div>
     </div>
-    <div id="black" class="grayscale"></div>
+    <div id="black" class="grayscale">
+        <div id="quotes">
+            <p>We do not own the land. The land owns us.’-Unknown.</p>
+            <p>You must treat the earth well. It was not given to you by your parents. It is loaned to you by your children.’-Kikuyu proverb.</p>
+            <p>Until the lion learns to write, every story will glorify the hunter.-African proverb.</p>
+        </div>
+      </div>
 
     <div id="Gallery">
 
@@ -83,10 +105,8 @@
 
     </div>
     <footer></footer>
-
       <script src="js/script.js" type="text/javascript"></script>
-      <!--      Adding jquery -->
-      <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+
 <!--      Texillate js initialization script-->
         <script type="text/javascript" src="js/jquery.textillate.js"></script>
         <script type="text/javascript" src="js/jquery.lettering-0.6.1.min.js"></script>

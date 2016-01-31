@@ -55,7 +55,7 @@ animation: bounce 2s infinite;
     background-color: #212121;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    border-bottom: 2px dashed white;
+    border-bottom: 2px solid white;
     border-top: 5px solid white;
 
 
@@ -87,7 +87,7 @@ animation: bounce 2s infinite;
 }
 .grayscale{
     filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  -webkit-filter: grayscale(70%); /* Chrome 19+ & Safari 6+ */
  -webkit-transition: all .5s ease-in-out;
 
 }
@@ -95,4 +95,13 @@ animation: bounce 2s infinite;
     filter: none;
 
   -webkit-filter: grayscale(0%);
+}
+#quotes{
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 750;
 }
