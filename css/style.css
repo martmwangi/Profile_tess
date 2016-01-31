@@ -69,7 +69,6 @@ animation: bounce 2s infinite;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 .info{
@@ -85,4 +84,15 @@ animation: bounce 2s infinite;
 }
 #bio p{
     font-size: 30px;
+}
+.grayscale{
+    filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+ -webkit-transition: all .5s ease-in-out;
+
+}
+.grayscale:hover{
+    filter: none;
+
+  -webkit-filter: grayscale(0%);
 }
