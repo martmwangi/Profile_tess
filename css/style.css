@@ -14,8 +14,8 @@ body{
 .banner-swimming{
 background:
 linear-gradient(
-rgba(12, 12, 13, 0.30),
-rgba(12, 12, 13, 0.30)
+rgba(192,192,192,0.3),
+rgba(192,192,192,0.3)
 ), url(../Images/207-min.JPG);
     background-size: cover;
     background-repeat: no-repeat;

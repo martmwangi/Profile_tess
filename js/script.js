@@ -1,7 +1,7 @@
 $(function () {
     $('.tlt').textillate({
         in:{
-            effect: 'rollIn',
+            effect: 'flash',
             shuffle: 'true'
         }
     });
