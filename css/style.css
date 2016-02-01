@@ -61,7 +61,7 @@ animation: bounce 2s infinite;
 
 }
 #black{
-    height: 60vh;
+    height: 35vh;
     width: 100%;
      /*    background */
     background-image:url(../Images/compressjpeg/170-min.JPG);
@@ -110,7 +110,7 @@ animation: bounce 2s infinite;
      font-size: 30px;
      text-align: center;
      padding-left: 50px;
-     font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Old Standard TT', serif;
      font-weight: 700;
 
 }
