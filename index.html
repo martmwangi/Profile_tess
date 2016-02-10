@@ -29,47 +29,12 @@
 <!--      For the gooey menu-->
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="gooey-menu/css/style.css">
+<!--      For neon lighting-->
+      <link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 
   </head>
   <body>
     <header>
-        <nav class="menu">
-  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
-  <label class="menu-open-button" for="menu-open">
-    <span class="hamburger hamburger-1"></span>
-    <span class="hamburger hamburger-2"></span>
-    <span class="hamburger hamburger-3"></span>
-  </label>
-  
-  <a href="#landing" class="menu-item"> <i class="fa fa-bar-chart"></i> </a>
-  <a href="#bio" class="menu-item"> <i class="fa fa-plus"></i> </a>
-  <a href="#black" class="menu-item"> <i class="fa fa-heart"></i> </a>
-  <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
-  <a href="#" class="menu-item"> <i class="fa fa-cog"></i> </a>
-
-</nav>
-
-
-<!-- filters -->
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-    <defs>
-      <filter id="shadowed-goo">
-          
-          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-          <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
-          <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
-          <feOffset in="shadow" dx="1" dy="1" result="shadow" />
-          <feBlend in2="shadow" in="goo" result="goo" />
-          <feBlend in2="goo" in="SourceGraphic" result="mix" />
-      </filter>
-      <filter id="goo">
-          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-          <feBlend in2="goo" in="SourceGraphic" result="mix" />
-      </filter>
-    </defs>
-</svg>
     </header>
       <div id="loader">          
           <h1 class="tlt" data-in-effect="rollIn" data-in-shuffle="true">Wangeci</h1>
@@ -79,23 +44,25 @@
     <div id="landing" class="banner-swimming">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                      <h1>Wangeci</h1>
-                     <h2 class="tlt" data-in-effect="rollIn" data-in-shuffle="true">Environmental Scientist</h2>
-                    <a href="#bio" class="center"><i class="fa fa-angle-down fa-5x"></i></a>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">                     
+                 
                 </div>
             </div>
         </div>
     </div>
       <div class="background-image"></div>
-              <div id="bio">
+    <div id="bio">
         <div class="container">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 info">
-                <h1>Who I am</h1>
-                <hr>
-                <p class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">The name’s Wangeci Kariuki. Tess can do too. Let’s talk about environmental conservation. Does it mean anything to you? While at it, let’s add a whole of sustainability to it. Do you think you will still get that fresh air you love…say in about 10 years from now? Better yet, what social and economic impacts would come about from this? I love inter linking and making new discoveries on this.
-                On a personal level: I am a part time hiker. I love to travel. I love to read. Occasionally, I try to take some pretty dope pictures. I get a whole lot done at the first brightening of the day. Please don’t litter……please</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 info">
+                    <h1>Who I am</h1>
+                    <hr>
+                    <p><section class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.3s">The name’s Wangeci Kariuki. Tess can do too. Let’s talk about environmental conservation. Does it mean anything</section><section class="wow slideInRight" data-wow-duration="1s" data-wow-delay="0.3s">to you? While at it, let’s add a whole of sustainability to it. Do you think you will still get that fresh air you love…say</section><section class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.3s">in about 10 years from now? Better yet, what social and economic impacts would come about from this? I love inter</section><section class="wow slideInRight" data-wow-duration="1s" data-wow-delay="0.3s">linking and making new discoveries on this.
+                    On a personal level: I am a part time hiker. I love to travel. I love to read. Occasionally, I try to take some pretty dope pictures. I get a whole lot done at the first brightening of the day.</section><span class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">Please don’t litter……please</span>
+                    </p>
+            </div>            
             </div>
+
         </div>
     </div>
     <div id="black" class="grayscale">

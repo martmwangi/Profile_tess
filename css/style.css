@@ -6,7 +6,7 @@ body{
     background-color: #72D572;  
     width: 100%;
     height: 100vh;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 #loader h1{
     color: white;
@@ -16,7 +16,7 @@ body{
     padding-top: 250px;
 }
 .load{
-        margin-left: 45%;    
+          
       
 }
 #loader h2{
@@ -33,13 +33,24 @@ body{
     padding: 0;
     align-content: center;
     text-align: center;
+ 
+}
+#landing h1{
+color:#fff;
+background-color:transparent;
+text-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+text-align: center;
+text-decoration: none;
+text-decoration-line: none;
+text-decoration-style: solid;
+    
 }
 .banner-swimming{
 background:
 linear-gradient(
-rgba(192,192,192,0.3),
-rgba(192,192,192,0.3)
-), url(../Images/207-min.JPG);
+rgba(255, 255, 255, 0.5),
+rgba(255, 255, 255, 0.5)
+), url(../Images/211-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,6 +61,7 @@ rgba(192,192,192,0.3)
     padding-top: 270px;
     font-family: serif;
     font-size: 60px;
+    
 }
 #landing h2{
     color: white;
@@ -75,13 +87,19 @@ animation: bounce 2s infinite;
     height: 100vh;
     width: 100%;
     color: white;
-    background-color: #212121;
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #0e4941;
+    text-align: center;   
     border-bottom: 2px solid white;
     border-top: 5px solid white;
+}
+#bio p{
+    font-size: 16px;
+}
 
-
+.wow{
+     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+    
 }
 #black{
     height: 35vh;
@@ -137,3 +155,5 @@ animation: bounce 2s infinite;
 }
 /*For the slider*/
  #galleria{ width: 450px; height: 400px; background: #000 }
+
+/*For the neon button*/
